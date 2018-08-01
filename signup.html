@@ -5,22 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Signup</title>
-  <style>
-    .button {
-      width: 30%;
-      background-color: #0FC2A4;
-      height: 30px;
-      border-radius: 25px;
-      color: #fff;
-    }
-    .table-row {
-      height: 40px;
-    }
-    .table-data {
-      width: 30%;
-    }
-  </style>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/style.css"/>
 </head>
 <body>
@@ -28,21 +12,21 @@
     <div class="container">
         <h1>Sign Up</h1>
         <nav>
-            <ul class="navigation" style="padding-left:0px;">
-              <li style="display:inline;"><a href="./index.html">Home |</a></li>
-              <li style="display:inline;"><a href="./signup.html">Sign up |</a></li>
-              <li style="display:inline;"><a href="./blog.html">Blog |</a></li>
-              <li style="display:inline;"><a href="./about.html">About Us</a></li>
+            <ul>
+              <li><a href="./index.html"><div class="wrapper-link">Home</div></a></li>
+              <li><a class="active" href="./signup.html"><div class="wrapper-link">Sign up</div></a></li>
+              <li><a href="./blog.html"><div class="wrapper-link">Blog</div></a></li>
+              <li><a href="./about.html"><div class="wrapper-link">About Us</div></a></li>
             </ul>
           </nav>
-          <form>
-          <table>
+          <form id="form-signup">
+          <table id="table-signup">
             <tbody>
               <tr>
                 <td class="table-data"><label>Title</label></td>
-                <td><input type="radio" name="title" value="mr">&nbsp;&nbsp;Mr
-                  &nbsp;&nbsp;<input type="radio"  name="title" value="mrs">&nbsp;&nbsp;Mrs
-                  &nbsp;&nbsp;<input type="radio"  name="title" value="miss">&nbsp;&nbsp;Miss
+                <td><input type="radio" name="title" value="mr">&nbsp;Mr
+                  &nbsp;&nbsp;<input type="radio"  name="title" value="mrs">&nbsp;Mrs
+                  &nbsp;&nbsp;<input type="radio"  name="title" value="miss">&nbsp;Miss
                 </td>
               </tr>
               <tr class="table-row">
@@ -71,7 +55,7 @@
               </tr>
               <tr class="table-row">
                 <td><label for="country">Country</label></td>
-                <td><select name="country">
+                <td><select class="form-control" name="country">
                     <option value="1">Canada</option>
                     <option value="2">United States</option>
                     <option value="3">English</option>
@@ -86,7 +70,6 @@
               <tr><td></td></tr>
               </tbody>
             </table>
-            <br>
             <input type="submit" class="btn btn-success" value="Sign up">
             </form>
             <br>

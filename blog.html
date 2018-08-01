@@ -5,52 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Blog</title>
-  <style>
-    .blog-image {
-      display: block;
-      width: 50%;
-    }
-  </style>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css"/>
 </head>
 <body>
   <div class="row">
     <div class="container">
         <h1>Blog Page</h1>
         <nav>
-            <ul style="padding-left:0px;">
-              <li style="display:inline;"><a href="./index.html">Home |</a></li>
-              <li style="display:inline;"><a href="./signup.html">Sign up |</a></li>
-              <li style="display:inline;"><a href="./blog.html">Blog |</a></li>
-              <li style="display:inline;"><a href="./about.html">About Us</a></li>
+            <ul>
+              <li><a href="./index.html"><div class="wrapper-link">Home</div></a></li>
+              <li><a href="./signup.html"><div class="wrapper-link">Sign up</div></a></li>
+              <li><a class="active" href="./blog.html"><div class="wrapper-link">Blog</div></a></li>
+              <li><a href="./about.html"><div class="wrapper-link">About Us</div></a></li>
             </ul>
           </nav>
           <hr>
+        <div class="info">
           <h2>Book a holiday to Bali for the same price as a trip to Spain</h2>
           <img class="blog-image" src="./images/bali.jpg" alt="bali" title="bali">
-          <br>
-          <p>
-              Bali sama indahnya seperti foto di kartu pos, sebuah surga di Indonesia yang terasa seperti negeri khayalan. Nikmati waktu mandi matahari di atas hamparan pasir putih halus, atau bercengkeramalah dengan makhluk hidup tropis saat Anda menyelam di sepanjang terumbu karang maupun bangkai kapal perang PD II yang memikat. 
-          </p>
-          <p>
-              Di pantai, hutan yang rimbun menaungi candi dan kera liar. Sebagai “pusat seni”, Ubud merupakan tempat sempurna untuk melihat pertunjukan tari budaya, belajar membuat batik atau mengolah perak, maupun menyegarkan jiwa dan raga Anda dengan mengikuti kursus yoga.
-          </p>
-          <a href="">Read more..</a>
-          <br>
-          <hr>
-          <br>
+            <div class="text">
+              <div class="content">
+                  Bali sama indahnya seperti foto di kartu pos, sebuah surga di Indonesia yang terasa seperti negeri khayalan. Nikmati waktu mandi matahari di atas hamparan pasir putih halus, atau bercengkeramalah dengan makhluk hidup tropis saat Anda menyelam di sepanjang terumbu karang maupun bangkai kapal perang PD II yang memikat. 
+              </div>
+              <div class="content">
+                  Di pantai, hutan yang rimbun menaungi candi dan kera liar. Sebagai “pusat seni”, Ubud merupakan tempat sempurna untuk melihat pertunjukan tari budaya, belajar membuat batik atau mengolah perak, maupun menyegarkan jiwa dan raga Anda dengan mengikuti kursus yoga.
+                  <br>
+                  <br>
+                  <a href="">Read more..</a>
+                  <br>
+                  <hr>
+              </div>
+            </div>
+        </div>
+
+        <div class="info">
           <h2>There are secret luxury villas hidden in the Bali jungle</h2>
           <img class="blog-image" src="./images/villa.jpg" alt="villa" title="villa">
-          <br>
-          <p>
-              “Nestled on the edge of a few rice paddies and dense, lush tropical jungle the pace is almost still, and the only sounds are those of forest creatures chirping, croaking and bubbling away.”
-          </p>
-          <p>
-              “Love everything about this place, the staff are amazing and so friendly, the grounds are stunning and well kept, beautiful infinity pool with sounds of the jungle and the river below.”
-          </p>
-          <a href="">Read more..</a>
-          <br>
-          <hr>
+          <div class="text">
+            <div class="content">
+                “Nestled on the edge of a few rice paddies and dense, lush tropical jungle the pace is almost still, and the only sounds are those of forest creatures chirping, croaking and bubbling away.”
+            </div>
+            <div class="content">
+                “Love everything about this place, the staff are amazing and so friendly, the grounds are stunning and well kept, beautiful infinity pool with sounds of the jungle and the river below.”
+                <br>
+                <br>
+                <a href="">Read more..</a>
+                <br>
+                <hr>
+            </div>
+          </div>
+        </div>
           <p>&copy; copyright 2018</p>
     </div>
   </div>

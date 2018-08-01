@@ -5,26 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>About</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css"/>
 </head>
 <body>
   <div class="row">
     <div class="container">
         <h1>About Page</h1>
-  <nav class="">
-      <ul style="padding-left:0px;">
-        <li style="display:inline;"><a href="./index.html">Home |</a></li>
-        <li style="display:inline;"><a href="./signup.html">Sign up |</a></li>
-        <li style="display:inline;"><a href="./blog.html">Blog |</a></li>
-        <li style="display:inline;"><a href="./about.html">About Us</a></li>
+  <nav>
+      <ul>
+        <li><a href="./index.html"><div class="wrapper-link">Home</div></a></li>
+        <li><a href="./signup.html"><div class="wrapper-link">Sign up</div>
+        </a></li>
+        <li><a href="./blog.html"><div class="wrapper-link">Blog</div></a></li>
+        <li><a class="active" href="./about.html"><div class="wrapper-link">About Us</div></a></li>
       </ul>
     </nav>
-  <table class="table table-hover">
+  <table class="table table-about">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Role</th>
+      </tr>
+    </thead>
     <tbody>
-    <tr>
-      <th style="text-align:left;">Name</th>
-      <th style="text-align:left;">Role</th>
-    </tr>
     <tr>
       <td class="title">John Lennon</td>
       <td>CEO</td>
